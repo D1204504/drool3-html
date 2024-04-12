@@ -195,18 +195,12 @@ a:focus {
   justify-content: space-between;
 }
 
-.custom_nav-container .navbar-toggler {
+.custom_nav-container .navbar-toggle {
   outline: none;
 
-  .navbar-toggler-icon {
-    background-image: url(../images/menu.png);
-    background-size: 50px;
-    width: 30px;
-    height: 30px;
-  }
 }
 
-.lg_toggl-btn {
+.lg_toggle-btn {
   background-color: transparent;
   border: none;
   outline: none;
@@ -301,7 +295,7 @@ a:focus {
   transition: 0.5s;
 }
 
-.overlay .closebtn {
+.overlay .close-btn {
   position: absolute;
   top: 0;
   right: 30px;
@@ -309,7 +303,7 @@ a:focus {
 }
 
 .overlay a {
-  padding: 0px;
+  padding: 0;
   text-decoration: none;
   font-size: 22px;
   color: $white;
@@ -681,11 +675,11 @@ a:focus {
 
       @keyframes border-dance {
         0% {
-          background-position: 0px 0px;
+          background-position: 0 0;
         }
 
         100% {
-          background-position: 300px 0px;
+          background-position: 300px ;
         }
       }
     }
@@ -998,7 +992,6 @@ a:focus {
 
 .footer_section p {
   color: $white;
-  margin: 0;
   padding: 25px 0 20px 0;
   margin: 0 auto;
   text-align: center;

@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <meta name="description" content="Find the best pet food you want here">
   <!-- Basic -->
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -13,7 +14,7 @@
   <meta name="author" content="" />
 
   <title>Drool</title>
-  <link rel="stylesheet" href="css/bootstrap.css">
+
 
 
 
@@ -22,13 +23,13 @@
   <!-- Custom styles for this template -->
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet" />
+  <link href="css/styles.pure.css" rel="stylesheet" />
 </head>
 
 <body class="sub_page">
 <div class="hero_area">
 
-<!-- header section strats -->
+
     <header class="header_section">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container">
@@ -38,8 +39,9 @@
           <div class="" id="">
             <div class="User_option">
               <form class="form-inline my-2  mb-3 mb-lg-0">
-                <input type="search" placeholder="Search">
-                <button class="button.btn my-sm-0 nav_search-btn" type="submit"></button>
+                <label for="search">Search:</label>
+                <input type="search" id="search" placeholder="Search">
+                <button class="button.btn my-sm-0 nav_search-btn" type="submit">press</button>
 
               </form>
             </div>
@@ -78,12 +80,12 @@
       <div class="detail-box">
         <div class="heading_container">
           <img src="images/heading-img.png" alt="">
-          <h2>
+          <h1>
             About Us
-          </h2>
+          </h1>
         </div>
         <p>
-          It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+          It is a  fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
         </p>
         <div class="btn-box">
           <a href="">
@@ -109,11 +111,11 @@
             <img src="images/dog.jpg" alt="">
           </div>
           <div class="detail-box">
-            <h5>
+            <h2>
               Cute Dog
-            </h5>
+            </h2>
             <p>
-              It is a long established fact that a reader will be distracted by
+              It is a  fact that a reader will be distracted by
             </p>
           </div>
         </div>
@@ -122,11 +124,11 @@
             <img src="images/bird.jpg" alt="">
           </div>
           <div class="detail-box">
-            <h5>
+            <h3>
               Birds
-            </h5>
+            </h3>
             <p>
-              It is a long established fact that a reader will be distracted by
+              It is a  fact that a reader will be distracted by
             </p>
           </div>
         </div>
@@ -135,11 +137,11 @@
             <img src="images/fish.jpg" alt="">
           </div>
           <div class="detail-box">
-            <h5>
+            <h4>
               Fish
-            </h5>
+            </h4>
             <p>
-              It is a long established fact that a reader will be distracted by
+              It is a  fact that a reader will be distracted by
             </p>
           </div>
         </div>
@@ -152,7 +154,7 @@
               Cat Bite
             </h5>
             <p>
-              It is a long established fact that a reader will be distracted by
+              It is a  fact that a reader will be distracted by
             </p>
           </div>
         </div>
@@ -168,11 +170,11 @@
     <div class="container">
       <div class="heading_container">
         <img src="images/heading-img.png" alt="">
-        <h2>
+        <h6>
           Why Choose Us
-        </h2>
+        </h6>
         <p>
-          It is a long established fact that a reader will be distracted by the readable content of a
+          It is a  fact that a reader will be distracted by the readable content of a
         </p>
       </div>
       <div class="us_container">
@@ -210,9 +212,9 @@
             <img src="images/shield.png" alt="">
           </div>
           <div class="detail-box">
-            <h6>
+            <h4>
               QUALITY & SAFETY
-            </h6>
+            </h4>
           </div>
         </div>
       </div>
@@ -236,9 +238,9 @@
       <div class="row">
         <div class="col-md-6 col-lg-3">
           <div class="info_contact">
-            <h5>
+            <h6>
               CONTACT INFO
-            </h5>
+            </h6>
             <div>
               <img src="images/call.png" alt="" />
               <p>
@@ -255,9 +257,9 @@
         </div>
         <div class="col-md-6 col-lg-3">
           <div class="info_time">
-            <h5>
+            <h6>
               Opening Hours Shop
-            </h5>
+            </h6>
             <div>
               <p>
                 Monday to friday
@@ -273,9 +275,9 @@
 
         <div class="col-md-6 col-lg-3">
           <div class="info_social">
-            <h5>
+            <h6>
               social media
-            </h5>
+            </h6>
             <div class="social_container">
               <div>
                 <a href="">
@@ -302,11 +304,12 @@
         </div>
         <div class="col-md-6 col-lg-3">
           <div class="info_form pl-lg-4">
-            <h5>
+            <h6>
               Newsletter
-            </h5>
+            </h6>
             <form action="">
-              <input type="text" placeholder="Enter Your Email" />
+              <label for="text">Search:</label>
+              <input type="text" id="text" placeholder="Enter Your Email">
               <button type="submit">
                 Subscribe
               </button>
@@ -330,8 +333,8 @@
   <!-- end  footer section -->
 
 
-  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/compressed.js"></script>
+
   <script>
     function openNav() {
       document.getElementById("myNav").classList.toggle("menu_width")
